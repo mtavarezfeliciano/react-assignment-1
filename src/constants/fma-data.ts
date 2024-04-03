@@ -1,11 +1,4 @@
-export type Character = {
-  name: string;
-  skillset: string[];
-  votes: number;
-  imageUrl: string;
-  background: string;
-  nickName: null | string;
-};
+import { Character } from "../types/shared";
 
 export const data: Character[] = [
   {
@@ -26,7 +19,7 @@ export const data: Character[] = [
     background:
       "Alphonse is a walking suit of armor on a quest to find his real body",
     imageUrl:
-      "https://static.wikia.nocookie.net/universe-of-smash-bros-lawl/images/1/19/Alphonse_Elric_Fullmetal_Alchemist.png/revision/latest?cb=20201121115928",
+      "https://static.wikia.nocookie.net/universe-of-smash-bros-lawl/images/1/19/Alphonse_Elric_Fullmetal_Alchemist.png",
   },
   {
     name: "Edward Elrich",
@@ -44,7 +37,7 @@ export const data: Character[] = [
     votes: 45,
     skillset: ["Skin Hardening", "Homunculii"],
     imageUrl:
-      "https://static.wikia.nocookie.net/villains/images/f/fd/20111222135943%21Greed.png/revision/latest?cb=20140901212536",
+      "https://static.wikia.nocookie.net/villains/images/f/fd/20111222135943%21Greed.png/",
     background:
       "Greed is one of the seven deadly sins Homunculii. He's the most 'on our side' of all of them.",
   },
@@ -66,7 +59,7 @@ export const data: Character[] = [
     background:
       "Hawkeye is Colonel Mustang's loyal assistant, and one of the strongest non-alchemist characters in the show",
     imageUrl:
-      "https://static.wikia.nocookie.net/fma/images/2/26/Riza-profile.png/revision/latest?cb=20200710231139",
+      "https://static.wikia.nocookie.net/fma/images/2/26/Riza-profile.png",
   },
   {
     name: "Solf J. Kimblee",
@@ -75,7 +68,7 @@ export const data: Character[] = [
     skillset: ["Being a piece of sh*t", "Alchemy"],
     background: "Kimblee suckkkkkssss, seriously he's not very nice",
     imageUrl:
-      "https://static.wikia.nocookie.net/fullmetal-alchemist-database/images/9/94/SolfJKimbleeEp37.png/revision/latest/scale-to-width-down/290?cb=20121003101919",
+      "https://static.wikia.nocookie.net/fullmetal-alchemist-database/images/9/94/SolfJKimbleeEp37.png",
   },
   {
     name: "Tim Marcoh",
@@ -85,7 +78,7 @@ export const data: Character[] = [
     background:
       "Dr. Marcoh did some F**ked up S**t in the war on ishval, but his redemption arc is strong",
     imageUrl:
-      "https://static.wikia.nocookie.net/fma/images/8/88/Marcoh.png/revision/latest?cb=20130321233603",
+      "https://static.wikia.nocookie.net/fma/images/8/88/Marcoh.png",
   },
   {
     name: "Winrey Rockbell",
@@ -95,6 +88,6 @@ export const data: Character[] = [
     background:
       "Winrey is Edward and Al's best friend, and it's a good thing because her specialty is making the best automail out there",
     imageUrl:
-      "https://static.wikia.nocookie.net/thejusticeworld/images/8/85/800-by-600-366874-20090424144049.jpg/revision/latest?cb=20120415225041",
+      "https://static.wikia.nocookie.net/thejusticeworld/images/8/85/800-by-600-366874-20090424144049.jpg",
   },
 ];
